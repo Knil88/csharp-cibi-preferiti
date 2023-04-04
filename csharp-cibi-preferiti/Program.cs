@@ -13,7 +13,7 @@ Console.Write($"Quantità di cibi:{cibiPreferiti.Length}");
 //Creo le variabili per poi stampare i cibi a parte
 
 var ciboTop = cibiPreferiti[0];
-var ciboFinale = cibiPreferiti[5];
+var ciboFinale = cibiPreferiti[cibiPreferiti.Length-1];
 
 
 //Creiamo un ciclo for per stampare la lista completa
