@@ -43,6 +43,6 @@ if (cibiPreferiti.Length % 2 == 0)
 }
 else
 {
-    int ciboMediano = cibiPreferiti.Length / 2;
+    int ciboDiMezzo = cibiPreferiti.Length / 2;
     Console.WriteLine($"Il cibo di mezza classifica è {cibiPreferiti[ciboDiMezzo]}");
 }
