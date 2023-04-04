@@ -6,9 +6,9 @@ string[] cibiPreferiti = { "Hamburger", "Spaghetti alle vongole", "Uova all'occh
 
 //Stampiamo a schermo la lunghezza del nostro array
 
-Console.Write("Quantità di cibi:");
+Console.Write($"Quantità di cibi:{cibiPreferiti.Length}");
 
-Console.WriteLine(cibiPreferiti.Length);
+
 
 //Creo le variabili per poi stampare i cibi a parte
 
@@ -28,15 +28,12 @@ for(var i=0; i<cibiPreferiti.Length; i++)
 
 //Stampiamo il cibo top lista
 
-Console.Write("Primo Piatto preferito: ");
-Console.WriteLine(ciboPreferito1);
+Console.WriteLine($"Il cibo top è {ciboPreferito1}");
 
 //Stampiamo il cibo fine lista
 
-Console.Write("Ultimo Piatto preferito: ");
-Console.WriteLine(ciboPreferito5);
+Console.WriteLine($"Il cibo fine lista è {ciboPreferito5}");
 
 //Stampiamo il cibo in mezzo alla lista
 
-Console.Write(" Piatto medio preferito: ");
-Console.WriteLine(ciboPreferito2);
+Console.WriteLine($"Il cibo di mezzo  è {ciboPreferito2}");
