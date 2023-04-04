@@ -12,8 +12,8 @@ Console.Write($"Quantità di cibi:{cibiPreferiti.Length}");
 
 //Creo le variabili per poi stampare i cibi a parte
 
-var ciboPreferito1 = cibiPreferiti[0];
-var ciboPreferito5 = cibiPreferiti[5];
+var ciboTop = cibiPreferiti[0];
+var ciboFinale = cibiPreferiti[5];
 
 
 //Creiamo un ciclo for per stampare la lista completa
@@ -28,11 +28,11 @@ for(var i=0; i<cibiPreferiti.Length; i++)
 
 //Stampiamo il cibo top lista
 
-Console.WriteLine($"Il cibo top è {ciboPreferito1}");
+Console.WriteLine($"Il cibo top è {ciboTop}");
 
 //Stampiamo il cibo fine lista
 
-Console.WriteLine($"Il cibo fine lista è {ciboPreferito5}");
+Console.WriteLine($"Il cibo fine lista è {ciboFinale}");
 
 //Stampiamo il cibo in mezzo alla lista
 
