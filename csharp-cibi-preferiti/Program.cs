@@ -2,7 +2,7 @@
 
 //Andiamo a creare il nostro array di Piatti preferiti
 
-string[] cibiPreferiti = { "Hamburger", "Spaghetti alle vongole", "Uova all'occhio di bue", "Fettine Panate", "Patate Lesse" };
+string[] cibiPreferiti = { "Hamburger", "Spaghetti alle vongole", "Uova all'occhio di bue", "Fettine Panate", "Patate Lesse" ,"Bollito"};
 
 //Stampiamo a schermo la lunghezza del nostro array
 
@@ -13,8 +13,8 @@ Console.Write($"Quantità di cibi:{cibiPreferiti.Length}");
 //Creo le variabili per poi stampare i cibi a parte
 
 var ciboPreferito1 = cibiPreferiti[0];
-var ciboPreferito5 = cibiPreferiti[4];
-var ciboPreferito2 = cibiPreferiti[2];
+var ciboPreferito5 = cibiPreferiti[5];
+
 
 //Creiamo un ciclo for per stampare la lista completa
 
@@ -36,4 +36,13 @@ Console.WriteLine($"Il cibo fine lista è {ciboPreferito5}");
 
 //Stampiamo il cibo in mezzo alla lista
 
-Console.WriteLine($"Il cibo di mezzo  è {ciboPreferito2}");
+if (cibiPreferiti.Length % 2 == 0)
+{
+    int ciboDiMezzo = cibiPreferiti.Length / 2;
+    Console.WriteLine($"Il cibo di mezza classifica è {cibiPreferiti[ciboDiMezzo - 1]} e {cibiPreferiti[ciboDiMezzo]}");
+}
+else
+{
+    int ciboMediano = cibiPreferiti.Length / 2;
+    Console.WriteLine($"Il cibo di mezza classifica è {cibiPreferiti[ciboDiMezzo]}");
+}
